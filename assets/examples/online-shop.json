@@ -1,0 +1,49 @@
+{
+  "title": "Online shop: target architecture",
+  "subtitle": "Container level | Target state | As of [ADD: date]",
+  "direction": "LR",
+  "layers": ["Clients", "Edge", "Services", "Async & AI", "Data", "External"],
+  "boundaries": [
+    {"id": "azure", "label": "Azure (production subscription)", "kind": "azure"},
+    {"id": "aks", "label": "AKS cluster", "kind": "kubernetes", "parent": "azure"},
+    {"id": "onprem", "label": "On-premises data centre", "kind": "onprem"}
+  ],
+  "components": [
+    {"id": "customer", "label": "Customers", "type": "users", "layer": "Clients"},
+    {"id": "mobile", "label": "Mobile app", "tech": "Flutter", "type": "mobile", "layer": "Clients"},
+    {"id": "frontdoor", "label": "Front Door", "tech": "Azure Front Door", "type": "network", "layer": "Edge", "boundary": "azure"},
+    {"id": "apim", "label": "API Management", "tech": "APIM", "type": "gateway", "layer": "Edge", "boundary": "azure"},
+    {"id": "web", "label": "Storefront", "tech": "Next.js", "type": "web-app", "layer": "Services", "boundary": "aks"},
+    {"id": "order", "label": "Order service", "tech": "Python", "detail": "Python · FastAPI", "type": "service", "layer": "Services", "boundary": "aks"},
+    {"id": "catalog", "label": "Catalog service", "tech": "Spring Boot", "type": "service", "layer": "Services", "boundary": "aks"},
+    {"id": "payment", "label": "Payment service", "tech": "Node.js", "type": "service", "layer": "Services", "boundary": "aks"},
+    {"id": "events", "label": "Order events", "tech": "Event Hubs", "type": "stream", "layer": "Async & AI", "boundary": "azure"},
+    {"id": "worker", "label": "Fulfilment worker", "tech": "Go", "type": "service", "layer": "Async & AI", "boundary": "aks"},
+    {"id": "recommender", "label": "Recommendation engine", "tech": "Python", "type": "ai", "layer": "Async & AI", "boundary": "aks"},
+    {"id": "openai", "label": "Azure OpenAI", "tech": "Azure OpenAI", "type": "ai", "layer": "Async & AI", "boundary": "azure"},
+    {"id": "orders_db", "label": "Orders DB", "tech": "Azure Database for PostgreSQL", "type": "database", "layer": "Data", "boundary": "azure"},
+    {"id": "cache", "label": "Session cache", "tech": "Azure Cache for Redis", "type": "cache", "layer": "Data", "boundary": "azure"},
+    {"id": "images", "label": "Product images", "tech": "Azure Blob Storage", "type": "object-storage", "layer": "Data", "boundary": "azure"},
+    {"id": "erp", "label": "SAP ERP", "tech": "SAP", "type": "external-system", "layer": "External", "boundary": "onprem"},
+    {"id": "stripe", "label": "Stripe", "tech": "Stripe", "type": "external-system", "layer": "External"}
+  ],
+  "flows": [
+    {"from": "customer", "to": "frontdoor", "label": "HTTPS"},
+    {"from": "mobile", "to": "apim", "label": "REST / HTTPS"},
+    {"from": "frontdoor", "to": "web", "label": "HTTPS"},
+    {"from": "web", "to": "apim", "label": "REST"},
+    {"from": "apim", "to": "order", "label": "REST"},
+    {"from": "apim", "to": "catalog", "label": "REST"},
+    {"from": "apim", "to": "payment", "label": "REST"},
+    {"from": "order", "to": "orders_db", "label": "SQL"},
+    {"from": "order", "to": "cache", "label": "read / write"},
+    {"from": "order", "to": "events", "label": "OrderPlaced", "style": "async"},
+    {"from": "catalog", "to": "images", "label": "read"},
+    {"from": "payment", "to": "stripe", "label": "card payments (HTTPS)"},
+    {"from": "events", "to": "worker", "label": "consume", "style": "async"},
+    {"from": "events", "to": "recommender", "label": "consume", "style": "async"},
+    {"from": "worker", "to": "erp", "label": "sales orders (REST)"},
+    {"from": "recommender", "to": "openai", "label": "prompts"},
+    {"from": "recommender", "to": "cache", "label": "recommendations"}
+  ]
+}

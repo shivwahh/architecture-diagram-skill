@@ -1,0 +1,61 @@
+{
+  "font_family": "Helvetica",
+  "text": "#1f2937",
+  "muted": "#6b7280",
+  "sizes": {"title": 20, "subtitle": 12, "name": 12, "detail": 10, "edge_label": 11,
+            "boundary_label": 12, "layer_label": 11, "legend": 11},
+  "card": {"min_width": 190, "max_width": 260, "height": 60, "icon": 32, "icon_pad": 14,
+           "radius": 10, "fill": "#ffffff", "stroke": "#b8c2d0"},
+  "node": {"icon": 48, "min_label_width": 100, "max_label_width": 150},
+  "spacing": {"layer_gap": 100, "row_gap": 50, "boundary_pad": 20, "boundary_header": 30,
+              "margin": 40, "lane": 14, "label_margin": 10},
+  "edge": {"color": "#475569", "width": 1.5, "label_color": "#374151"},
+  "status": {
+    "new":        {"fill": "#d5e8d4", "stroke": "#82b366", "label": "New"},
+    "changed":    {"fill": "#fff2cc", "stroke": "#d6b656", "label": "Changed"},
+    "retiring":   {"fill": "#f8cecc", "stroke": "#b85450", "label": "Retiring"},
+    "unchanged":  {"fill": "#dae8fc", "stroke": "#6c8ebf", "label": "Unchanged"},
+    "to-confirm": {"fill": "#ffffff", "stroke": "#d79b00", "label": "To confirm", "dashed": 1}
+  },
+  "boundaries": {
+    "cloud":       {"stroke": "#8b95a7", "fill": "#f8fafc", "dashed": 0},
+    "aws":         {"stroke": "#8b95a7", "fill": "#f8fafc", "dashed": 0},
+    "azure":       {"stroke": "#8b95a7", "fill": "#f8fafc", "dashed": 0},
+    "gcp":         {"stroke": "#8b95a7", "fill": "#f8fafc", "dashed": 0},
+    "onprem":      {"stroke": "#71717a", "fill": "#f4f4f5", "dashed": 0},
+    "kubernetes":  {"stroke": "#64748b", "fill": "#ffffff", "dashed": 1},
+    "docker":      {"stroke": "#64748b", "fill": "#ffffff", "dashed": 1},
+    "network":     {"stroke": "#94a3b8", "fill": "none", "dashed": 1},
+    "environment": {"stroke": "#475569", "fill": "none", "dashed": 0},
+    "layer":       {"stroke": "#cbd5e1", "fill": "#f8fafc", "dashed": 0},
+    "external":    {"stroke": "#9ca3af", "fill": "none", "dashed": 1},
+    "generic":     {"stroke": "#94a3b8", "fill": "none", "dashed": 1}
+  },
+  "targets": {
+    "slide": {
+      "label": "PowerPoint slide (16:9)",
+      "area_px": [1180, 560], "area_note": "16:9 slide below a title, about 12.3 x 5.8 in",
+      "good_pt": 10, "min_pt": 8, "max_components": 18, "max_flows": 24, "max_words": 160,
+      "show_title": false,
+      "sizes": {"name": 14, "detail": 12, "edge_label": 12, "boundary_label": 13, "layer_label": 12, "legend": 12},
+      "card": {"min_width": 160, "max_width": 230, "height": 56, "icon": 30, "icon_pad": 12},
+      "spacing": {"layer_gap": 64, "row_gap": 22, "boundary_pad": 14, "boundary_header": 28, "margin": 16, "lane": 12}
+    },
+    "document": {
+      "label": "Document page (A4 / Letter, Word or Confluence)",
+      "area_px": [600, 820], "area_note": "portrait page inside margins, about 6.3 x 8.5 in",
+      "good_pt": 8, "min_pt": 7, "max_components": 30, "max_flows": 40, "max_words": 300,
+      "show_title": true,
+      "sizes": {"name": 13, "detail": 11, "edge_label": 11},
+      "card": {"min_width": 170, "max_width": 240, "height": 56},
+      "spacing": {"layer_gap": 80, "row_gap": 32, "boundary_pad": 16, "margin": 20}
+    },
+    "screen": {
+      "label": "Screen only (draw.io, wiki, zoomable)",
+      "show_title": true
+    }
+  },
+  "boundary_icons": {"aws": "aws", "azure": "azure", "gcp": "gcp", "kubernetes": "kubernetes",
+                     "docker": "docker", "onprem": "generic-datacenter", "cloud": "generic-cloud",
+                     "external": "generic-external-system", "network": "generic-network"}
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Claims portal on AWS",
+  "subtitle": "Container level | Current state",
+  "direction": "TB",
+  "layers": ["Users", "Edge", "Application", "Async", "Data"],
+  "boundaries": [
+    {"id": "aws", "label": "AWS account (prod)", "kind": "aws"},
+    {"id": "vpc", "label": "VPC", "kind": "network", "parent": "aws"},
+    {"id": "private", "label": "Private subnets", "kind": "network", "parent": "vpc"}
+  ],
+  "components": [
+    {"id": "agents", "label": "Claims agents", "type": "users", "layer": "Users"},
+    {"id": "public", "label": "Policyholders", "type": "users", "layer": "Users"},
+    {"id": "cdn", "label": "CloudFront", "tech": "CloudFront", "layer": "Edge", "boundary": "aws"},
+    {"id": "cognito", "label": "Cognito", "tech": "Cognito", "layer": "Edge", "boundary": "aws"},
+    {"id": "alb", "label": "Load balancer", "tech": "ALB", "layer": "Edge", "boundary": "vpc"},
+    {"id": "portal", "label": "Claims portal", "tech": "React", "type": "web-app", "layer": "Application", "boundary": "private"},
+    {"id": "api", "label": "Claims API", "tech": "Java", "detail": "Java 17 on ECS", "type": "service", "layer": "Application", "boundary": "private"},
+    {"id": "queue", "label": "Claims queue", "tech": "SQS", "layer": "Async", "boundary": "aws"},
+    {"id": "triage", "label": "Triage function", "tech": "AWS Lambda", "layer": "Async", "boundary": "aws"},
+    {"id": "llm", "label": "Document summariser", "tech": "Bedrock", "layer": "Async", "boundary": "aws"},
+    {"id": "db", "label": "Claims DB", "tech": "Amazon RDS", "layer": "Data", "boundary": "private"},
+    {"id": "docs", "label": "Claim documents", "tech": "S3", "layer": "Data", "boundary": "aws"},
+    {"id": "logs", "label": "CloudWatch", "tech": "CloudWatch", "layer": "Data", "boundary": "aws"}
+  ],
+  "flows": [
+    {"from": "agents", "to": "cdn", "label": "HTTPS"},
+    {"from": "public", "to": "cdn", "label": "HTTPS"},
+    {"from": "agents", "to": "cognito", "label": "sign-in"},
+    {"from": "cdn", "to": "alb", "label": "HTTPS"},
+    {"from": "alb", "to": "portal"},
+    {"from": "alb", "to": "api", "label": "REST"},
+    {"from": "api", "to": "db", "label": "JDBC"},
+    {"from": "api", "to": "docs", "label": "upload"},
+    {"from": "api", "to": "queue", "label": "ClaimSubmitted", "style": "async"},
+    {"from": "queue", "to": "triage", "label": "trigger", "style": "async"},
+    {"from": "triage", "to": "llm", "label": "summarise"},
+    {"from": "triage", "to": "docs", "label": "read"},
+    {"from": "api", "to": "logs", "label": "logs"}
+  ]
+}

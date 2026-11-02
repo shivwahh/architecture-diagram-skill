@@ -1,0 +1,4672 @@
+{
+ "generic-user": {
+  "label": "User",
+  "aliases": [],
+  "category": "generic",
+  "type": "user",
+  "icon": "generic/user.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-users": {
+  "label": "Users / team",
+  "aliases": [],
+  "category": "generic",
+  "type": "users",
+  "icon": "generic/users.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-web-app": {
+  "label": "Web app / browser",
+  "aliases": [],
+  "category": "generic",
+  "type": "web-app",
+  "icon": "generic/web-app.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-mobile": {
+  "label": "Mobile app",
+  "aliases": [],
+  "category": "generic",
+  "type": "mobile",
+  "icon": "generic/mobile.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-desktop": {
+  "label": "Desktop client",
+  "aliases": [],
+  "category": "generic",
+  "type": "desktop",
+  "icon": "generic/desktop.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-service": {
+  "label": "Service",
+  "aliases": [],
+  "category": "generic",
+  "type": "service",
+  "icon": "generic/service.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-api": {
+  "label": "API",
+  "aliases": [],
+  "category": "generic",
+  "type": "api",
+  "icon": "generic/api.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-gateway": {
+  "label": "Gateway / reverse proxy",
+  "aliases": [],
+  "category": "generic",
+  "type": "gateway",
+  "icon": "generic/gateway.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-load-balancer": {
+  "label": "Load balancer",
+  "aliases": [],
+  "category": "generic",
+  "type": "load-balancer",
+  "icon": "generic/load-balancer.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-function": {
+  "label": "Function / serverless",
+  "aliases": [],
+  "category": "generic",
+  "type": "function",
+  "icon": "generic/function.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-container": {
+  "label": "Container",
+  "aliases": [],
+  "category": "generic",
+  "type": "container",
+  "icon": "generic/container.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-cluster": {
+  "label": "Cluster / orchestrator",
+  "aliases": [],
+  "category": "generic",
+  "type": "cluster",
+  "icon": "generic/cluster.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-server": {
+  "label": "Server / VM / compute",
+  "aliases": [],
+  "category": "generic",
+  "type": "server",
+  "icon": "generic/server.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-database": {
+  "label": "Database",
+  "aliases": [],
+  "category": "generic",
+  "type": "database",
+  "icon": "generic/database.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-cache": {
+  "label": "Cache",
+  "aliases": [],
+  "category": "generic",
+  "type": "cache",
+  "icon": "generic/cache.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-queue": {
+  "label": "Message queue",
+  "aliases": [],
+  "category": "generic",
+  "type": "queue",
+  "icon": "generic/queue.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-stream": {
+  "label": "Event stream / bus",
+  "aliases": [],
+  "category": "generic",
+  "type": "stream",
+  "icon": "generic/stream.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-object-storage": {
+  "label": "Object storage",
+  "aliases": [],
+  "category": "generic",
+  "type": "object-storage",
+  "icon": "generic/object-storage.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-file-storage": {
+  "label": "File storage",
+  "aliases": [],
+  "category": "generic",
+  "type": "file-storage",
+  "icon": "generic/file-storage.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-ai": {
+  "label": "AI / ML model",
+  "aliases": [],
+  "category": "generic",
+  "type": "ai",
+  "icon": "generic/ai.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-external-system": {
+  "label": "External system",
+  "aliases": [],
+  "category": "generic",
+  "type": "external-system",
+  "icon": "generic/external-system.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-security": {
+  "label": "Security control",
+  "aliases": [],
+  "category": "generic",
+  "type": "security",
+  "icon": "generic/security.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-identity": {
+  "label": "Identity / auth",
+  "aliases": [],
+  "category": "generic",
+  "type": "identity",
+  "icon": "generic/identity.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-secrets": {
+  "label": "Secrets / keys",
+  "aliases": [],
+  "category": "generic",
+  "type": "secrets",
+  "icon": "generic/secrets.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-firewall": {
+  "label": "Firewall / WAF",
+  "aliases": [],
+  "category": "generic",
+  "type": "firewall",
+  "icon": "generic/firewall.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-monitoring": {
+  "label": "Monitoring",
+  "aliases": [],
+  "category": "generic",
+  "type": "monitoring",
+  "icon": "generic/monitoring.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-logging": {
+  "label": "Logging",
+  "aliases": [],
+  "category": "generic",
+  "type": "logging",
+  "icon": "generic/logging.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-cicd": {
+  "label": "CI/CD pipeline",
+  "aliases": [],
+  "category": "generic",
+  "type": "cicd",
+  "icon": "generic/cicd.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-repository": {
+  "label": "Source repository",
+  "aliases": [],
+  "category": "generic",
+  "type": "repository",
+  "icon": "generic/repository.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-network": {
+  "label": "Network / CDN / DNS",
+  "aliases": [],
+  "category": "generic",
+  "type": "network",
+  "icon": "generic/network.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-email": {
+  "label": "Email",
+  "aliases": [],
+  "category": "generic",
+  "type": "email",
+  "icon": "generic/email.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-notification": {
+  "label": "Notifications",
+  "aliases": [],
+  "category": "generic",
+  "type": "notification",
+  "icon": "generic/notification.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-scheduler": {
+  "label": "Scheduler / batch",
+  "aliases": [],
+  "category": "generic",
+  "type": "scheduler",
+  "icon": "generic/scheduler.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-analytics": {
+  "label": "Analytics / warehouse",
+  "aliases": [],
+  "category": "generic",
+  "type": "analytics",
+  "icon": "generic/analytics.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-dashboard": {
+  "label": "Dashboard",
+  "aliases": [],
+  "category": "generic",
+  "type": "dashboard",
+  "icon": "generic/dashboard.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-cloud": {
+  "label": "Cloud",
+  "aliases": [],
+  "category": "generic",
+  "type": "cloud",
+  "icon": "generic/cloud.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-datacenter": {
+  "label": "Data centre / on-premises",
+  "aliases": [],
+  "category": "generic",
+  "type": "datacenter",
+  "icon": "generic/datacenter.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-device": {
+  "label": "Device / IoT",
+  "aliases": [],
+  "category": "generic",
+  "type": "device",
+  "icon": "generic/device.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-etl": {
+  "label": "ETL / integration",
+  "aliases": [],
+  "category": "generic",
+  "type": "etl",
+  "icon": "generic/etl.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "generic-search": {
+  "label": "Search",
+  "aliases": [],
+  "category": "generic",
+  "type": "search",
+  "icon": "generic/search.svg",
+  "license": "Original artwork included with this skill; free to use and modify"
+ },
+ "postgresql": {
+  "label": "PostgreSQL",
+  "aliases": [
+   "postgres",
+   "psql",
+   "pg",
+   "pgsql",
+   "postgres db",
+   "postgresql db",
+   "postgresql database"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/postgresql.svg",
+  "sources": {
+   "devicon": [
+    "postgresql"
+   ],
+   "simpleicons": [
+    "postgresql"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "mysql": {
+  "label": "MySQL",
+  "aliases": [
+   "my sql"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/mysql.svg",
+  "sources": {
+   "devicon": [
+    "mysql"
+   ],
+   "simpleicons": [
+    "mysql"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "mariadb": {
+  "label": "MariaDB",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/mariadb.svg",
+  "sources": {
+   "devicon": [
+    "mariadb"
+   ],
+   "simpleicons": [
+    "mariadb"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "sqlserver": {
+  "label": "Microsoft SQL Server",
+  "aliases": [
+   "sql server",
+   "mssql",
+   "ms sql",
+   "ms sql server",
+   "microsoft sql server"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/sqlserver.svg",
+  "sources": {
+   "devicon": [
+    "microsoftsqlserver"
+   ],
+   "simpleicons": [
+    "microsoftsqlserver"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "oracle-db": {
+  "label": "Oracle Database",
+  "aliases": [
+   "oracle",
+   "oracle db",
+   "oracle database"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/oracle-db.svg",
+  "sources": {
+   "devicon": [
+    "oracle"
+   ],
+   "simpleicons": [
+    "oracle"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "mongodb": {
+  "label": "MongoDB",
+  "aliases": [
+   "mongo",
+   "mongo db"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/mongodb.svg",
+  "sources": {
+   "devicon": [
+    "mongodb"
+   ],
+   "simpleicons": [
+    "mongodb"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "redis": {
+  "label": "Redis",
+  "aliases": [
+   "redis cache",
+   "redis streams",
+   "redis pub/sub"
+  ],
+  "category": "databases",
+  "type": "cache",
+  "icon": "databases/redis.svg",
+  "sources": {
+   "devicon": [
+    "redis"
+   ],
+   "simpleicons": [
+    "redis"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "memcached": {
+  "label": "Memcached",
+  "aliases": [],
+  "category": "databases",
+  "type": "cache",
+  "icon": "databases/memcached.svg",
+  "sources": {
+   "devicon": [
+    "memcached"
+   ],
+   "simpleicons": [
+    "memcached"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/memcached/memcached-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "cassandra": {
+  "label": "Apache Cassandra",
+  "aliases": [
+   "cassandra"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/cassandra.svg",
+  "sources": {
+   "devicon": [
+    "cassandra"
+   ],
+   "simpleicons": [
+    "apachecassandra"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "elasticsearch": {
+  "label": "Elasticsearch",
+  "aliases": [
+   "elastic search"
+  ],
+  "category": "databases",
+  "type": "search",
+  "icon": "databases/elasticsearch.svg",
+  "sources": {
+   "devicon": [
+    "elasticsearch"
+   ],
+   "simpleicons": [
+    "elasticsearch"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "opensearch": {
+  "label": "OpenSearch",
+  "aliases": [
+   "open search"
+  ],
+  "category": "databases",
+  "type": "search",
+  "icon": "databases/opensearch.svg",
+  "sources": {
+   "devicon": [
+    "opensearch"
+   ],
+   "simpleicons": [
+    "opensearch"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/opensearch",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "sqlite": {
+  "label": "SQLite",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/sqlite.svg",
+  "sources": {
+   "devicon": [
+    "sqlite"
+   ],
+   "simpleicons": [
+    "sqlite"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "neo4j": {
+  "label": "Neo4j",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/neo4j.svg",
+  "sources": {
+   "devicon": [
+    "neo4j"
+   ],
+   "simpleicons": [
+    "neo4j"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "couchbase": {
+  "label": "Couchbase",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/couchbase.svg",
+  "sources": {
+   "devicon": [
+    "couchbase"
+   ],
+   "simpleicons": [
+    "couchbase"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/couchbase/couchbase-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "influxdb": {
+  "label": "InfluxDB",
+  "aliases": [
+   "influx db"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/influxdb.svg",
+  "sources": {
+   "devicon": [
+    "influxdb"
+   ],
+   "simpleicons": [
+    "influxdb"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/influxdb/influxdb-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "clickhouse": {
+  "label": "ClickHouse",
+  "aliases": [
+   "click house"
+  ],
+  "category": "databases",
+  "type": "analytics",
+  "icon": "databases/clickhouse.svg",
+  "sources": {
+   "devicon": [
+    "clickhouse"
+   ],
+   "simpleicons": [
+    "clickhouse"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clickhouse/clickhouse-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "snowflake": {
+  "label": "Snowflake",
+  "aliases": [
+   "snowflake data warehouse"
+  ],
+  "category": "databases",
+  "type": "analytics",
+  "icon": "databases/snowflake.svg",
+  "sources": {
+   "devicon": [
+    "snowflake"
+   ],
+   "simpleicons": [
+    "snowflake"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/snowflake",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "cockroachdb": {
+  "label": "CockroachDB",
+  "aliases": [
+   "cockroach db"
+  ],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/cockroachdb.svg",
+  "sources": {
+   "devicon": [
+    "cockroachdb"
+   ],
+   "simpleicons": [
+    "cockroachlabs"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/cockroachlabs",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "supabase": {
+  "label": "Supabase",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/supabase.svg",
+  "sources": {
+   "devicon": [
+    "supabase"
+   ],
+   "simpleicons": [
+    "supabase"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "firebase": {
+  "label": "Firebase",
+  "aliases": [],
+  "category": "databases",
+  "type": "database",
+  "icon": "databases/firebase.svg",
+  "sources": {
+   "devicon": [
+    "firebase"
+   ],
+   "simpleicons": [
+    "firebase"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "minio": {
+  "label": "MinIO",
+  "aliases": [
+   "min io"
+  ],
+  "category": "storage",
+  "type": "object-storage",
+  "icon": "storage/minio.svg",
+  "sources": {
+   "devicon": [
+    "minio"
+   ],
+   "simpleicons": [
+    "minio"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/minio",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ceph": {
+  "label": "Ceph",
+  "aliases": [],
+  "category": "storage",
+  "type": "file-storage",
+  "icon": "storage/ceph.svg",
+  "sources": {
+   "devicon": [
+    "ceph"
+   ],
+   "simpleicons": [
+    "ceph"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ceph/ceph-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "hadoop": {
+  "label": "Apache Hadoop / HDFS",
+  "aliases": [
+   "hadoop",
+   "hdfs",
+   "apache hadoop"
+  ],
+  "category": "storage",
+  "type": "file-storage",
+  "icon": "storage/hadoop.svg",
+  "sources": {
+   "devicon": [
+    "hadoop"
+   ],
+   "simpleicons": [
+    "apachehadoop"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "docker": {
+  "label": "Docker",
+  "aliases": [
+   "docker container",
+   "docker containers",
+   "dockerized",
+   "dockerized service",
+   "dockerised",
+   "docker engine",
+   "docker compose",
+   "docker-compose",
+   "docker host"
+  ],
+  "category": "containers",
+  "type": "container",
+  "icon": "containers/docker.svg",
+  "sources": {
+   "devicon": [
+    "docker"
+   ],
+   "simpleicons": [
+    "docker"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "kubernetes": {
+  "label": "Kubernetes",
+  "aliases": [
+   "k8s",
+   "kube",
+   "k8s cluster",
+   "kubernetes cluster"
+  ],
+  "category": "containers",
+  "type": "cluster",
+  "icon": "containers/kubernetes.svg",
+  "sources": {
+   "devicon": [
+    "kubernetes"
+   ],
+   "simpleicons": [
+    "kubernetes"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "helm": {
+  "label": "Helm",
+  "aliases": [
+   "helm chart",
+   "helm charts"
+  ],
+  "category": "containers",
+  "type": "cicd",
+  "icon": "containers/helm.svg",
+  "sources": {
+   "devicon": [
+    "helm"
+   ],
+   "simpleicons": [
+    "helm"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/helm/helm-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "podman": {
+  "label": "Podman",
+  "aliases": [],
+  "category": "containers",
+  "type": "container",
+  "icon": "containers/podman.svg",
+  "sources": {
+   "devicon": [
+    "podman"
+   ],
+   "simpleicons": [
+    "podman"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "openshift": {
+  "label": "Red Hat OpenShift",
+  "aliases": [
+   "openshift",
+   "ocp",
+   "red hat openshift"
+  ],
+  "category": "containers",
+  "type": "cluster",
+  "icon": "containers/openshift.svg",
+  "sources": {
+   "devicon": [
+    "openshift"
+   ],
+   "simpleicons": [
+    "redhatopenshift"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/redhatopenshift",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "rancher": {
+  "label": "Rancher",
+  "aliases": [],
+  "category": "containers",
+  "type": "cluster",
+  "icon": "containers/rancher.svg",
+  "sources": {
+   "devicon": [
+    "rancher"
+   ],
+   "simpleicons": [
+    "rancher"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rancher/rancher-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "git": {
+  "label": "Git",
+  "aliases": [],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/git.svg",
+  "sources": {
+   "devicon": [
+    "git"
+   ],
+   "simpleicons": [
+    "git"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "github": {
+  "label": "GitHub",
+  "aliases": [
+   "github repo",
+   "github repository",
+   "github.com",
+   "github enterprise"
+  ],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/github.svg",
+  "sources": {
+   "devicon": [
+    "github"
+   ],
+   "simpleicons": [
+    "github"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "github-actions": {
+  "label": "GitHub Actions",
+  "aliases": [
+   "github actions",
+   "gh actions",
+   "github workflows"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/github-actions.svg",
+  "sources": {
+   "devicon": [
+    "githubactions"
+   ],
+   "simpleicons": [
+    "githubactions"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "gitlab": {
+  "label": "GitLab",
+  "aliases": [
+   "gitlab ci",
+   "gitlab ci/cd",
+   "gitlab ci cd"
+  ],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/gitlab.svg",
+  "sources": {
+   "devicon": [
+    "gitlab"
+   ],
+   "simpleicons": [
+    "gitlab"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "bitbucket": {
+  "label": "Bitbucket",
+  "aliases": [
+   "bitbucket pipelines"
+  ],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/bitbucket.svg",
+  "sources": {
+   "devicon": [
+    "bitbucket"
+   ],
+   "simpleicons": [
+    "bitbucket"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "jenkins": {
+  "label": "Jenkins",
+  "aliases": [],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/jenkins.svg",
+  "sources": {
+   "devicon": [
+    "jenkins"
+   ],
+   "simpleicons": [
+    "jenkins"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "azure-devops": {
+  "label": "Azure DevOps",
+  "aliases": [
+   "azure devops",
+   "azure pipelines",
+   "azure repos",
+   "ado"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/azure-devops.svg",
+  "sources": {
+   "devicon": [
+    "azuredevops"
+   ],
+   "simpleicons": [
+    "azuredevops"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "circleci": {
+  "label": "CircleCI",
+  "aliases": [
+   "circle ci"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/circleci.svg",
+  "sources": {
+   "devicon": [
+    "circleci"
+   ],
+   "simpleicons": [
+    "circleci"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/circleci/circleci-plain.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "argocd": {
+  "label": "Argo CD",
+  "aliases": [
+   "argo cd",
+   "argo"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/argocd.svg",
+  "sources": {
+   "devicon": [
+    "argocd"
+   ],
+   "simpleicons": [
+    "argo"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/argocd/argocd-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "terraform": {
+  "label": "Terraform",
+  "aliases": [
+   "hashicorp terraform"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/terraform.svg",
+  "sources": {
+   "devicon": [
+    "terraform"
+   ],
+   "simpleicons": [
+    "terraform"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ansible": {
+  "label": "Ansible",
+  "aliases": [],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/ansible.svg",
+  "sources": {
+   "devicon": [
+    "ansible"
+   ],
+   "simpleicons": [
+    "ansible"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "pulumi": {
+  "label": "Pulumi",
+  "aliases": [],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/pulumi.svg",
+  "sources": {
+   "devicon": [
+    "pulumi"
+   ],
+   "simpleicons": [
+    "pulumi"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pulumi/pulumi-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "packer": {
+  "label": "Packer",
+  "aliases": [
+   "hashicorp packer"
+  ],
+  "category": "devops",
+  "type": "cicd",
+  "icon": "devops/packer.svg",
+  "sources": {
+   "devicon": [
+    "packer"
+   ],
+   "simpleicons": [
+    "packer"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/packer/packer-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "sonarqube": {
+  "label": "SonarQube",
+  "aliases": [
+   "sonar qube",
+   "sonar"
+  ],
+  "category": "devops",
+  "type": "security",
+  "icon": "devops/sonarqube.svg",
+  "sources": {
+   "devicon": [
+    "sonarqube"
+   ],
+   "simpleicons": [
+    "sonarqubeserver",
+    "sonarqube"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "jira": {
+  "label": "Jira",
+  "aliases": [],
+  "category": "devops",
+  "type": "external-system",
+  "icon": "devops/jira.svg",
+  "sources": {
+   "devicon": [
+    "jira"
+   ],
+   "simpleicons": [
+    "jira"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "confluence": {
+  "label": "Confluence",
+  "aliases": [],
+  "category": "devops",
+  "type": "external-system",
+  "icon": "devops/confluence.svg",
+  "sources": {
+   "devicon": [
+    "confluence"
+   ],
+   "simpleicons": [
+    "confluence"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "artifactory": {
+  "label": "JFrog Artifactory",
+  "aliases": [
+   "jfrog",
+   "jfrog artifactory"
+  ],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/artifactory.svg",
+  "sources": {
+   "simpleicons": [
+    "jfrog"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/jfrog",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "nexus": {
+  "label": "Sonatype Nexus",
+  "aliases": [
+   "nexus repository",
+   "sonatype nexus"
+  ],
+  "category": "devops",
+  "type": "repository",
+  "icon": "devops/nexus.svg",
+  "sources": {
+   "simpleicons": [
+    "sonatype"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/sonatype",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "python": {
+  "label": "Python",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/python.svg",
+  "sources": {
+   "devicon": [
+    "python"
+   ],
+   "simpleicons": [
+    "python"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "java": {
+  "label": "Java",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/java.svg",
+  "sources": {
+   "devicon": [
+    "java"
+   ],
+   "simpleicons": [
+    "openjdk"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "javascript": {
+  "label": "JavaScript",
+  "aliases": [
+   "js"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/javascript.svg",
+  "sources": {
+   "devicon": [
+    "javascript"
+   ],
+   "simpleicons": [
+    "javascript"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "typescript": {
+  "label": "TypeScript",
+  "aliases": [
+   "ts"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/typescript.svg",
+  "sources": {
+   "devicon": [
+    "typescript"
+   ],
+   "simpleicons": [
+    "typescript"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "go": {
+  "label": "Go",
+  "aliases": [
+   "golang"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/go.svg",
+  "sources": {
+   "devicon": [
+    "go"
+   ],
+   "simpleicons": [
+    "go"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "rust": {
+  "label": "Rust",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/rust.svg",
+  "sources": {
+   "devicon": [
+    "rust"
+   ],
+   "simpleicons": [
+    "rust"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "csharp": {
+  "label": "C#",
+  "aliases": [
+   "c#",
+   "c sharp"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/csharp.svg",
+  "sources": {
+   "devicon": [
+    "csharp"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "dotnet": {
+  "label": ".NET",
+  "aliases": [
+   ".net",
+   "dotnet",
+   ".net core",
+   "asp.net core",
+   "asp.net",
+   "dotnet core"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/dotnet.svg",
+  "sources": {
+   "devicon": [
+    "dotnetcore"
+   ],
+   "simpleicons": [
+    "dotnet"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "nodejs": {
+  "label": "Node.js",
+  "aliases": [
+   "node.js",
+   "node js"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/nodejs.svg",
+  "sources": {
+   "devicon": [
+    "nodejs"
+   ],
+   "simpleicons": [
+    "nodedotjs"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "react": {
+  "label": "React",
+  "aliases": [
+   "react.js",
+   "reactjs",
+   "react js"
+  ],
+  "category": "languages",
+  "type": "web-app",
+  "icon": "languages/react.svg",
+  "sources": {
+   "devicon": [
+    "react"
+   ],
+   "simpleicons": [
+    "react"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "angular": {
+  "label": "Angular",
+  "aliases": [],
+  "category": "languages",
+  "type": "web-app",
+  "icon": "languages/angular.svg",
+  "sources": {
+   "devicon": [
+    "angular",
+    "angularjs"
+   ],
+   "simpleicons": [
+    "angular"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "vue": {
+  "label": "Vue.js",
+  "aliases": [
+   "vue",
+   "vuejs",
+   "vue.js"
+  ],
+  "category": "languages",
+  "type": "web-app",
+  "icon": "languages/vue.svg",
+  "sources": {
+   "devicon": [
+    "vuejs"
+   ],
+   "simpleicons": [
+    "vuedotjs"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "nextjs": {
+  "label": "Next.js",
+  "aliases": [
+   "next.js"
+  ],
+  "category": "languages",
+  "type": "web-app",
+  "icon": "languages/nextjs.svg",
+  "sources": {
+   "devicon": [
+    "nextjs"
+   ],
+   "simpleicons": [
+    "nextdotjs"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "spring": {
+  "label": "Spring Boot",
+  "aliases": [
+   "spring",
+   "springboot",
+   "spring boot"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/spring.svg",
+  "sources": {
+   "devicon": [
+    "spring"
+   ],
+   "simpleicons": [
+    "springboot",
+    "spring"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "django": {
+  "label": "Django",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/django.svg",
+  "sources": {
+   "devicon": [
+    "django"
+   ],
+   "simpleicons": [
+    "django"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "flask": {
+  "label": "Flask",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/flask.svg",
+  "sources": {
+   "devicon": [
+    "flask"
+   ],
+   "simpleicons": [
+    "flask"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "fastapi": {
+  "label": "FastAPI",
+  "aliases": [
+   "fast api"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/fastapi.svg",
+  "sources": {
+   "devicon": [
+    "fastapi"
+   ],
+   "simpleicons": [
+    "fastapi"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "kotlin": {
+  "label": "Kotlin",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/kotlin.svg",
+  "sources": {
+   "devicon": [
+    "kotlin"
+   ],
+   "simpleicons": [
+    "kotlin"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "swift": {
+  "label": "Swift",
+  "aliases": [],
+  "category": "languages",
+  "type": "mobile",
+  "icon": "languages/swift.svg",
+  "sources": {
+   "devicon": [
+    "swift"
+   ],
+   "simpleicons": [
+    "swift"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "php": {
+  "label": "PHP",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/php.svg",
+  "sources": {
+   "devicon": [
+    "php"
+   ],
+   "simpleicons": [
+    "php"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ruby": {
+  "label": "Ruby",
+  "aliases": [],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/ruby.svg",
+  "sources": {
+   "devicon": [
+    "ruby"
+   ],
+   "simpleicons": [
+    "ruby"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "rails": {
+  "label": "Ruby on Rails",
+  "aliases": [
+   "rails",
+   "ruby on rails",
+   "ror"
+  ],
+  "category": "languages",
+  "type": "service",
+  "icon": "languages/rails.svg",
+  "sources": {
+   "devicon": [
+    "rails"
+   ],
+   "simpleicons": [
+    "rubyonrails"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "flutter": {
+  "label": "Flutter",
+  "aliases": [],
+  "category": "languages",
+  "type": "mobile",
+  "icon": "languages/flutter.svg",
+  "sources": {
+   "devicon": [
+    "flutter"
+   ],
+   "simpleicons": [
+    "flutter"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "android": {
+  "label": "Android",
+  "aliases": [
+   "android app"
+  ],
+  "category": "languages",
+  "type": "mobile",
+  "icon": "languages/android.svg",
+  "sources": {
+   "devicon": [
+    "android"
+   ],
+   "simpleicons": [
+    "android"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ios": {
+  "label": "Apple iOS",
+  "aliases": [
+   "ios app",
+   "iphone app"
+  ],
+  "category": "languages",
+  "type": "mobile",
+  "icon": "languages/ios.svg",
+  "sources": {
+   "devicon": [
+    "apple"
+   ],
+   "simpleicons": [
+    "apple"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "linux": {
+  "label": "Linux",
+  "aliases": [],
+  "category": "languages",
+  "type": "server",
+  "icon": "languages/linux.svg",
+  "sources": {
+   "devicon": [
+    "linux"
+   ],
+   "simpleicons": [
+    "linux"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ubuntu": {
+  "label": "Ubuntu",
+  "aliases": [],
+  "category": "languages",
+  "type": "server",
+  "icon": "languages/ubuntu.svg",
+  "sources": {
+   "devicon": [
+    "ubuntu"
+   ],
+   "simpleicons": [
+    "ubuntu"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "redhat": {
+  "label": "Red Hat Enterprise Linux",
+  "aliases": [
+   "rhel",
+   "red hat",
+   "red hat linux"
+  ],
+  "category": "languages",
+  "type": "server",
+  "icon": "languages/redhat.svg",
+  "sources": {
+   "devicon": [
+    "redhat"
+   ],
+   "simpleicons": [
+    "redhat"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redhat/redhat-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "openai": {
+  "label": "OpenAI",
+  "aliases": [
+   "openai api",
+   "chatgpt api"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/openai.svg",
+  "sources": {
+   "devicon": [
+    "openai"
+   ],
+   "simpleicons": [
+    "openai"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "anthropic": {
+  "label": "Anthropic Claude",
+  "aliases": [
+   "claude",
+   "claude api",
+   "anthropic api"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/anthropic.svg",
+  "sources": {
+   "simpleicons": [
+    "anthropic",
+    "claude"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/anthropic",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "gemini": {
+  "label": "Google Gemini",
+  "aliases": [
+   "gemini",
+   "gemini api",
+   "google gemini"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/gemini.svg",
+  "sources": {
+   "simpleicons": [
+    "googlegemini"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/googlegemini",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "tensorflow": {
+  "label": "TensorFlow",
+  "aliases": [
+   "tensor flow"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/tensorflow.svg",
+  "sources": {
+   "devicon": [
+    "tensorflow"
+   ],
+   "simpleicons": [
+    "tensorflow"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "pytorch": {
+  "label": "PyTorch",
+  "aliases": [
+   "torch"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/pytorch.svg",
+  "sources": {
+   "devicon": [
+    "pytorch"
+   ],
+   "simpleicons": [
+    "pytorch"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "huggingface": {
+  "label": "Hugging Face",
+  "aliases": [
+   "hugging face"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/huggingface.svg",
+  "sources": {
+   "simpleicons": [
+    "huggingface"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/huggingface",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "langchain": {
+  "label": "LangChain",
+  "aliases": [
+   "lang chain"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/langchain.svg",
+  "sources": {
+   "devicon": [
+    "langchain"
+   ],
+   "simpleicons": [
+    "langchain"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/langchain",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "mlflow": {
+  "label": "MLflow",
+  "aliases": [
+   "ml flow"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/mlflow.svg",
+  "sources": {
+   "simpleicons": [
+    "mlflow"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/mlflow",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "jupyter": {
+  "label": "Jupyter",
+  "aliases": [
+   "jupyter notebook",
+   "jupyterhub",
+   "jupyter hub"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/jupyter.svg",
+  "sources": {
+   "devicon": [
+    "jupyter"
+   ],
+   "simpleicons": [
+    "jupyter"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "scikit-learn": {
+  "label": "scikit-learn",
+  "aliases": [
+   "sklearn",
+   "scikit learn"
+  ],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/scikit-learn.svg",
+  "sources": {
+   "devicon": [
+    "scikitlearn"
+   ],
+   "simpleicons": [
+    "scikitlearn"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "pandas": {
+  "label": "pandas",
+  "aliases": [],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/pandas.svg",
+  "sources": {
+   "devicon": [
+    "pandas"
+   ],
+   "simpleicons": [
+    "pandas"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "ollama": {
+  "label": "Ollama",
+  "aliases": [],
+  "category": "ai-ml",
+  "type": "ai",
+  "icon": "ai-ml/ollama.svg",
+  "sources": {
+   "simpleicons": [
+    "ollama"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/ollama",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "databricks": {
+  "label": "Databricks",
+  "aliases": [],
+  "category": "ai-ml",
+  "type": "analytics",
+  "icon": "ai-ml/databricks.svg",
+  "sources": {
+   "simpleicons": [
+    "databricks"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/databricks",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "spark": {
+  "label": "Apache Spark",
+  "aliases": [
+   "spark",
+   "pyspark",
+   "apache spark"
+  ],
+  "category": "ai-ml",
+  "type": "analytics",
+  "icon": "ai-ml/spark.svg",
+  "sources": {
+   "devicon": [
+    "apachespark"
+   ],
+   "simpleicons": [
+    "apachespark"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "airflow": {
+  "label": "Apache Airflow",
+  "aliases": [
+   "airflow",
+   "apache airflow"
+  ],
+  "category": "ai-ml",
+  "type": "etl",
+  "icon": "ai-ml/airflow.svg",
+  "sources": {
+   "devicon": [
+    "apacheairflow"
+   ],
+   "simpleicons": [
+    "apacheairflow"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "dbt": {
+  "label": "dbt",
+  "aliases": [
+   "data build tool"
+  ],
+  "category": "ai-ml",
+  "type": "etl",
+  "icon": "ai-ml/dbt.svg",
+  "sources": {
+   "simpleicons": [
+    "dbt"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dbt.svg",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "kafka": {
+  "label": "Apache Kafka",
+  "aliases": [
+   "kafka",
+   "apache kafka",
+   "kafka cluster",
+   "kafka topic",
+   "kafka topics",
+   "kafka broker"
+  ],
+  "category": "messaging",
+  "type": "stream",
+  "icon": "messaging/kafka.svg",
+  "sources": {
+   "devicon": [
+    "apachekafka"
+   ],
+   "simpleicons": [
+    "apachekafka"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "confluent": {
+  "label": "Confluent",
+  "aliases": [
+   "confluent cloud",
+   "confluent kafka"
+  ],
+  "category": "messaging",
+  "type": "stream",
+  "icon": "messaging/confluent.svg",
+  "fallback": "kafka",
+  "sources": {
+   "simpleicons": [
+    "confluent"
+   ]
+  },
+  "source_url": "https://api.iconify.design/thesvg-color/confluent.svg",
+  "license": "MIT (theSVG Color, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "rabbitmq": {
+  "label": "RabbitMQ",
+  "aliases": [
+   "rabbit mq"
+  ],
+  "category": "messaging",
+  "type": "queue",
+  "icon": "messaging/rabbitmq.svg",
+  "sources": {
+   "devicon": [
+    "rabbitmq"
+   ],
+   "simpleicons": [
+    "rabbitmq"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "activemq": {
+  "label": "Apache ActiveMQ",
+  "aliases": [
+   "activemq",
+   "active mq"
+  ],
+  "category": "messaging",
+  "type": "queue",
+  "icon": "messaging/activemq.svg",
+  "sources": {
+   "simpleicons": [
+    "apacheactivemq"
+   ]
+  }
+ },
+ "nats": {
+  "label": "NATS",
+  "aliases": [
+   "nats.io",
+   "nats jetstream"
+  ],
+  "category": "messaging",
+  "type": "stream",
+  "icon": "messaging/nats.svg",
+  "sources": {
+   "devicon": [
+    "nats"
+   ],
+   "simpleicons": [
+    "natsdotio"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nats/nats-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "pulsar": {
+  "label": "Apache Pulsar",
+  "aliases": [
+   "pulsar",
+   "apache pulsar"
+  ],
+  "category": "messaging",
+  "type": "stream",
+  "icon": "messaging/pulsar.svg",
+  "sources": {
+   "simpleicons": [
+    "apachepulsar"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/apachepulsar",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "mqtt": {
+  "label": "MQTT",
+  "aliases": [
+   "mqtt broker"
+  ],
+  "category": "messaging",
+  "type": "queue",
+  "icon": "messaging/mqtt.svg",
+  "sources": {
+   "simpleicons": [
+    "mqtt"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/mqtt",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "prometheus": {
+  "label": "Prometheus",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/prometheus.svg",
+  "sources": {
+   "devicon": [
+    "prometheus"
+   ],
+   "simpleicons": [
+    "prometheus"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "grafana": {
+  "label": "Grafana",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "dashboard",
+  "icon": "monitoring/grafana.svg",
+  "sources": {
+   "devicon": [
+    "grafana"
+   ],
+   "simpleicons": [
+    "grafana"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "datadog": {
+  "label": "Datadog",
+  "aliases": [
+   "data dog"
+  ],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/datadog.svg",
+  "sources": {
+   "devicon": [
+    "datadog"
+   ],
+   "simpleicons": [
+    "datadog"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datadog/datadog-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "kibana": {
+  "label": "Kibana",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "dashboard",
+  "icon": "monitoring/kibana.svg",
+  "sources": {
+   "devicon": [
+    "kibana"
+   ],
+   "simpleicons": [
+    "kibana"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kibana/kibana-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "logstash": {
+  "label": "Logstash",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "logging",
+  "icon": "monitoring/logstash.svg",
+  "sources": {
+   "devicon": [
+    "logstash"
+   ],
+   "simpleicons": [
+    "logstash"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/logstash/logstash-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "elastic-stack": {
+  "label": "Elastic Stack (ELK)",
+  "aliases": [
+   "elk",
+   "elk stack",
+   "elastic stack",
+   "elastic"
+  ],
+  "category": "monitoring",
+  "type": "logging",
+  "icon": "monitoring/elastic-stack.svg",
+  "fallback": "elasticsearch",
+  "sources": {
+   "simpleicons": [
+    "elastic"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/elastic",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "fluentd": {
+  "label": "Fluentd",
+  "aliases": [
+   "fluent bit",
+   "fluentbit"
+  ],
+  "category": "monitoring",
+  "type": "logging",
+  "icon": "monitoring/fluentd.svg",
+  "sources": {
+   "devicon": [
+    "fluentd"
+   ],
+   "simpleicons": [
+    "fluentd",
+    "fluentbit"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/fluentd",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "newrelic": {
+  "label": "New Relic",
+  "aliases": [
+   "new relic"
+  ],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/newrelic.svg",
+  "sources": {
+   "devicon": [
+    "newrelic"
+   ],
+   "simpleicons": [
+    "newrelic"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/newrelic/newrelic-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "splunk": {
+  "label": "Splunk",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "logging",
+  "icon": "monitoring/splunk.svg",
+  "sources": {
+   "simpleicons": [
+    "splunk"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/splunk",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "dynatrace": {
+  "label": "Dynatrace",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/dynatrace.svg",
+  "sources": {
+   "simpleicons": [
+    "dynatrace"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/dynatrace",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "opentelemetry": {
+  "label": "OpenTelemetry",
+  "aliases": [
+   "otel",
+   "open telemetry"
+  ],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/opentelemetry.svg",
+  "sources": {
+   "devicon": [
+    "opentelemetry"
+   ],
+   "simpleicons": [
+    "opentelemetry"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opentelemetry/opentelemetry-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "jaeger": {
+  "label": "Jaeger",
+  "aliases": [
+   "jaeger tracing"
+  ],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/jaeger.svg",
+  "sources": {
+   "simpleicons": [
+    "jaeger"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/jaeger",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "sentry": {
+  "label": "Sentry",
+  "aliases": [],
+  "category": "monitoring",
+  "type": "monitoring",
+  "icon": "monitoring/sentry.svg",
+  "sources": {
+   "devicon": [
+    "sentry"
+   ],
+   "simpleicons": [
+    "sentry"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "pagerduty": {
+  "label": "PagerDuty",
+  "aliases": [
+   "pager duty"
+  ],
+  "category": "monitoring",
+  "type": "notification",
+  "icon": "monitoring/pagerduty.svg",
+  "sources": {
+   "simpleicons": [
+    "pagerduty"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/pagerduty",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "vault": {
+  "label": "HashiCorp Vault",
+  "aliases": [
+   "vault",
+   "hashicorp vault"
+  ],
+  "category": "security",
+  "type": "secrets",
+  "icon": "security/vault.svg",
+  "sources": {
+   "devicon": [
+    "vault"
+   ],
+   "simpleicons": [
+    "vault"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vault/vault-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "keycloak": {
+  "label": "Keycloak",
+  "aliases": [
+   "key cloak"
+  ],
+  "category": "security",
+  "type": "identity",
+  "icon": "security/keycloak.svg",
+  "sources": {
+   "devicon": [
+    "keycloak"
+   ],
+   "simpleicons": [
+    "keycloak"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/keycloak",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "okta": {
+  "label": "Okta",
+  "aliases": [],
+  "category": "security",
+  "type": "identity",
+  "icon": "security/okta.svg",
+  "sources": {
+   "devicon": [
+    "okta"
+   ],
+   "simpleicons": [
+    "okta"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/okta/okta-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "auth0": {
+  "label": "Auth0",
+  "aliases": [
+   "auth 0"
+  ],
+  "category": "security",
+  "type": "identity",
+  "icon": "security/auth0.svg",
+  "sources": {
+   "simpleicons": [
+    "auth0"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/auth0",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "snyk": {
+  "label": "Snyk",
+  "aliases": [],
+  "category": "security",
+  "type": "security",
+  "icon": "security/snyk.svg",
+  "sources": {
+   "simpleicons": [
+    "snyk"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/snyk",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "nginx": {
+  "label": "NGINX",
+  "aliases": [
+   "nginx ingress",
+   "nginx ingress controller",
+   "nginx reverse proxy"
+  ],
+  "category": "networking",
+  "type": "gateway",
+  "icon": "networking/nginx.svg",
+  "sources": {
+   "devicon": [
+    "nginx"
+   ],
+   "simpleicons": [
+    "nginx"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "haproxy": {
+  "label": "HAProxy",
+  "aliases": [
+   "ha proxy"
+  ],
+  "category": "networking",
+  "type": "load-balancer",
+  "icon": "networking/haproxy.svg",
+  "sources": {
+   "simpleicons": [
+    "haproxy"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/haproxy.svg",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "traefik": {
+  "label": "Traefik",
+  "aliases": [
+   "traefik proxy"
+  ],
+  "category": "networking",
+  "type": "gateway",
+  "icon": "networking/traefik.svg",
+  "sources": {
+   "devicon": [
+    "traefikproxy"
+   ],
+   "simpleicons": [
+    "traefikproxy"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/traefikproxy/traefikproxy-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "envoy": {
+  "label": "Envoy Proxy",
+  "aliases": [
+   "envoy",
+   "envoy proxy"
+  ],
+  "category": "networking",
+  "type": "gateway",
+  "icon": "networking/envoy.svg",
+  "sources": {
+   "simpleicons": [
+    "envoyproxy"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/envoyproxy",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "istio": {
+  "label": "Istio",
+  "aliases": [
+   "istio service mesh"
+  ],
+  "category": "networking",
+  "type": "network",
+  "icon": "networking/istio.svg",
+  "sources": {
+   "simpleicons": [
+    "istio"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/istio",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "kong": {
+  "label": "Kong Gateway",
+  "aliases": [
+   "kong",
+   "kong api gateway"
+  ],
+  "category": "networking",
+  "type": "gateway",
+  "icon": "networking/kong.svg",
+  "sources": {
+   "simpleicons": [
+    "kong"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/kong",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "cloudflare": {
+  "label": "Cloudflare",
+  "aliases": [
+   "cloudflare cdn",
+   "cloudflare waf"
+  ],
+  "category": "networking",
+  "type": "network",
+  "icon": "networking/cloudflare.svg",
+  "sources": {
+   "devicon": [
+    "cloudflare"
+   ],
+   "simpleicons": [
+    "cloudflare"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "apache-httpd": {
+  "label": "Apache HTTP Server",
+  "aliases": [
+   "apache httpd",
+   "httpd",
+   "apache web server"
+  ],
+  "category": "networking",
+  "type": "gateway",
+  "icon": "networking/apache-httpd.svg",
+  "sources": {
+   "devicon": [
+    "apache"
+   ],
+   "simpleicons": [
+    "apache"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "tomcat": {
+  "label": "Apache Tomcat",
+  "aliases": [
+   "tomcat",
+   "apache tomcat"
+  ],
+  "category": "networking",
+  "type": "server",
+  "icon": "networking/tomcat.svg",
+  "sources": {
+   "devicon": [
+    "tomcat"
+   ],
+   "simpleicons": [
+    "apachetomcat"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "stripe": {
+  "label": "Stripe",
+  "aliases": [
+   "stripe payments"
+  ],
+  "category": "saas",
+  "type": "external-system",
+  "icon": "saas/stripe.svg",
+  "sources": {
+   "simpleicons": [
+    "stripe"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/stripe",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "paypal": {
+  "label": "PayPal",
+  "aliases": [],
+  "category": "saas",
+  "type": "external-system",
+  "icon": "saas/paypal.svg",
+  "sources": {
+   "simpleicons": [
+    "paypal"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/paypal",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "salesforce": {
+  "label": "Salesforce",
+  "aliases": [
+   "salesforce crm"
+  ],
+  "category": "saas",
+  "type": "external-system",
+  "icon": "saas/salesforce.svg",
+  "sources": {
+   "devicon": [
+    "salesforce"
+   ],
+   "simpleicons": [
+    "salesforce"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/salesforce/salesforce-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "sap": {
+  "label": "SAP",
+  "aliases": [
+   "sap erp",
+   "sap s/4hana",
+   "s/4hana"
+  ],
+  "category": "saas",
+  "type": "external-system",
+  "icon": "saas/sap.svg",
+  "sources": {
+   "simpleicons": [
+    "sap"
+   ]
+  },
+  "source_url": "https://cdn.simpleicons.org/sap",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "servicenow": {
+  "label": "ServiceNow",
+  "aliases": [
+   "service now"
+  ],
+  "category": "saas",
+  "type": "external-system",
+  "icon": "saas/servicenow.svg",
+  "sources": {
+   "simpleicons": [
+    "servicenow"
+   ]
+  },
+  "source_url": "https://api.iconify.design/thesvg-color/servicenow.svg",
+  "license": "MIT (theSVG Color, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "slack": {
+  "label": "Slack",
+  "aliases": [],
+  "category": "saas",
+  "type": "notification",
+  "icon": "saas/slack.svg",
+  "sources": {
+   "devicon": [
+    "slack"
+   ],
+   "simpleicons": [
+    "slack"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "microsoft-teams": {
+  "label": "Microsoft Teams",
+  "aliases": [
+   "ms teams",
+   "teams"
+  ],
+  "category": "saas",
+  "type": "notification",
+  "icon": "saas/microsoft-teams.svg",
+  "sources": {
+   "simpleicons": [
+    "microsoftteams"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftteams.svg",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "twilio": {
+  "label": "Twilio",
+  "aliases": [
+   "twilio sms"
+  ],
+  "category": "saas",
+  "type": "notification",
+  "icon": "saas/twilio.svg",
+  "sources": {
+   "simpleicons": [
+    "twilio"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twilio.svg",
+  "license": "CC0-1.0 (Simple Icons). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "aws": {
+  "label": "Amazon Web Services",
+  "aliases": [
+   "amazon web services",
+   "amazon aws"
+  ],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/aws.svg",
+  "sources": {
+   "devicon": [
+    "amazonwebservices"
+   ],
+   "simpleicons": [
+    "amazonwebservices"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "azure": {
+  "label": "Microsoft Azure",
+  "aliases": [
+   "microsoft azure"
+  ],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/azure.svg",
+  "sources": {
+   "devicon": [
+    "azure"
+   ],
+   "simpleicons": [
+    "microsoftazure"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "gcp": {
+  "label": "Google Cloud",
+  "aliases": [
+   "google cloud",
+   "google cloud platform"
+  ],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/gcp.svg",
+  "sources": {
+   "devicon": [
+    "googlecloud"
+   ],
+   "simpleicons": [
+    "googlecloud"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "vercel": {
+  "label": "Vercel",
+  "aliases": [],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/vercel.svg",
+  "sources": {
+   "devicon": [
+    "vercel"
+   ],
+   "simpleicons": [
+    "vercel"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "netlify": {
+  "label": "Netlify",
+  "aliases": [],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/netlify.svg",
+  "sources": {
+   "devicon": [
+    "netlify"
+   ],
+   "simpleicons": [
+    "netlify"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "heroku": {
+  "label": "Heroku",
+  "aliases": [],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/heroku.svg",
+  "sources": {
+   "devicon": [
+    "heroku"
+   ],
+   "simpleicons": [
+    "heroku"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "digitalocean": {
+  "label": "DigitalOcean",
+  "aliases": [
+   "digital ocean"
+  ],
+  "category": "cloud",
+  "type": "cloud",
+  "icon": "cloud/digitalocean.svg",
+  "sources": {
+   "devicon": [
+    "digitalocean"
+   ],
+   "simpleicons": [
+    "digitalocean"
+   ]
+  },
+  "source_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg",
+  "license": "MIT (Devicon). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "aws-lambda": {
+  "label": "AWS Lambda",
+  "aliases": [
+   "lambda",
+   "aws lambda",
+   "lambda function",
+   "lambda functions"
+  ],
+  "category": "cloud",
+  "type": "function",
+  "icon": "cloud/aws/lambda.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws lambda"
+  ]
+ },
+ "aws-s3": {
+  "label": "Amazon S3",
+  "aliases": [
+   "s3",
+   "amazon s3",
+   "aws s3",
+   "s3 bucket"
+  ],
+  "category": "cloud",
+  "type": "object-storage",
+  "icon": "cloud/aws/s3.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon simple storage service",
+   "simple storage service",
+   "amazon s3"
+  ]
+ },
+ "aws-ec2": {
+  "label": "Amazon EC2",
+  "aliases": [
+   "ec2",
+   "amazon ec2",
+   "aws ec2",
+   "ec2 instance",
+   "ec2 instances"
+  ],
+  "category": "cloud",
+  "type": "server",
+  "icon": "cloud/aws/ec2.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon ec2"
+  ]
+ },
+ "aws-rds": {
+  "label": "Amazon RDS",
+  "aliases": [
+   "rds",
+   "amazon rds",
+   "aws rds"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/aws/rds.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon rds"
+  ]
+ },
+ "aws-aurora": {
+  "label": "Amazon Aurora",
+  "aliases": [
+   "aurora",
+   "amazon aurora",
+   "aurora postgresql",
+   "aurora mysql"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/aws/aurora.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon aurora"
+  ]
+ },
+ "aws-dynamodb": {
+  "label": "Amazon DynamoDB",
+  "aliases": [
+   "dynamodb",
+   "dynamo db",
+   "amazon dynamodb",
+   "aws dynamodb"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/aws/dynamodb.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon dynamodb"
+  ]
+ },
+ "aws-api-gateway": {
+  "label": "Amazon API Gateway",
+  "aliases": [
+   "amazon api gateway",
+   "aws api gateway"
+  ],
+  "category": "cloud",
+  "type": "gateway",
+  "icon": "cloud/aws/api-gateway.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon api gateway"
+  ]
+ },
+ "aws-sqs": {
+  "label": "Amazon SQS",
+  "aliases": [
+   "sqs",
+   "amazon sqs",
+   "aws sqs",
+   "simple queue service"
+  ],
+  "category": "cloud",
+  "type": "queue",
+  "icon": "cloud/aws/sqs.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon simple queue service",
+   "simple queue service"
+  ]
+ },
+ "aws-sns": {
+  "label": "Amazon SNS",
+  "aliases": [
+   "sns",
+   "amazon sns",
+   "aws sns",
+   "simple notification service"
+  ],
+  "category": "cloud",
+  "type": "notification",
+  "icon": "cloud/aws/sns.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon simple notification service",
+   "simple notification service"
+  ]
+ },
+ "aws-eventbridge": {
+  "label": "Amazon EventBridge",
+  "aliases": [
+   "eventbridge",
+   "event bridge",
+   "amazon eventbridge"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/aws/eventbridge.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon eventbridge"
+  ]
+ },
+ "aws-kinesis": {
+  "label": "Amazon Kinesis",
+  "aliases": [
+   "kinesis",
+   "amazon kinesis",
+   "kinesis data streams"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/aws/kinesis.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon kinesis",
+   "amazon kinesis data streams"
+  ]
+ },
+ "aws-msk": {
+  "label": "Amazon MSK",
+  "aliases": [
+   "msk",
+   "amazon msk",
+   "amazon managed streaming for apache kafka"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/aws/msk.svg",
+  "fallback": "kafka",
+  "pack": "aws",
+  "pack_names": [
+   "amazon managed streaming for apache kafka"
+  ]
+ },
+ "aws-eks": {
+  "label": "Amazon EKS",
+  "aliases": [
+   "eks",
+   "amazon eks",
+   "aws eks",
+   "elastic kubernetes service"
+  ],
+  "category": "cloud",
+  "type": "cluster",
+  "icon": "cloud/aws/eks.svg",
+  "fallback": "kubernetes",
+  "pack": "aws",
+  "pack_names": [
+   "amazon elastic kubernetes service",
+   "amazon eks"
+  ]
+ },
+ "aws-ecs": {
+  "label": "Amazon ECS",
+  "aliases": [
+   "ecs",
+   "amazon ecs",
+   "aws ecs",
+   "elastic container service"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/aws/ecs.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon elastic container service",
+   "amazon ecs"
+  ]
+ },
+ "aws-ecr": {
+  "label": "Amazon ECR",
+  "aliases": [
+   "ecr",
+   "amazon ecr",
+   "elastic container registry"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/aws/ecr.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon elastic container registry"
+  ]
+ },
+ "aws-fargate": {
+  "label": "AWS Fargate",
+  "aliases": [
+   "fargate",
+   "aws fargate"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/aws/fargate.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws fargate"
+  ]
+ },
+ "aws-cloudfront": {
+  "label": "Amazon CloudFront",
+  "aliases": [
+   "cloudfront",
+   "amazon cloudfront"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/aws/cloudfront.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon cloudfront"
+  ]
+ },
+ "aws-route53": {
+  "label": "Amazon Route 53",
+  "aliases": [
+   "route 53",
+   "route53",
+   "amazon route 53"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/aws/route53.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon route 53"
+  ]
+ },
+ "aws-elb": {
+  "label": "Elastic Load Balancing",
+  "aliases": [
+   "elb",
+   "alb",
+   "nlb",
+   "aws alb",
+   "aws elb",
+   "aws application load balancer",
+   "elastic load balancing",
+   "elastic load balancer"
+  ],
+  "category": "cloud",
+  "type": "load-balancer",
+  "icon": "cloud/aws/elb.svg",
+  "pack": "aws",
+  "pack_names": [
+   "elastic load balancing"
+  ]
+ },
+ "aws-cloudwatch": {
+  "label": "Amazon CloudWatch",
+  "aliases": [
+   "cloudwatch",
+   "amazon cloudwatch",
+   "aws cloudwatch"
+  ],
+  "category": "cloud",
+  "type": "monitoring",
+  "icon": "cloud/aws/cloudwatch.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon cloudwatch"
+  ]
+ },
+ "aws-cognito": {
+  "label": "Amazon Cognito",
+  "aliases": [
+   "cognito",
+   "amazon cognito"
+  ],
+  "category": "cloud",
+  "type": "identity",
+  "icon": "cloud/aws/cognito.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon cognito"
+  ]
+ },
+ "aws-iam": {
+  "label": "AWS IAM",
+  "aliases": [
+   "aws iam",
+   "aws identity and access management"
+  ],
+  "category": "cloud",
+  "type": "identity",
+  "icon": "cloud/aws/iam.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws identity and access management"
+  ]
+ },
+ "aws-secrets-manager": {
+  "label": "AWS Secrets Manager",
+  "aliases": [
+   "secrets manager",
+   "aws secrets manager"
+  ],
+  "category": "cloud",
+  "type": "secrets",
+  "icon": "cloud/aws/secrets-manager.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws secrets manager"
+  ]
+ },
+ "aws-kms": {
+  "label": "AWS KMS",
+  "aliases": [
+   "aws kms",
+   "aws key management service"
+  ],
+  "category": "cloud",
+  "type": "secrets",
+  "icon": "cloud/aws/kms.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws key management service"
+  ]
+ },
+ "aws-elasticache": {
+  "label": "Amazon ElastiCache",
+  "aliases": [
+   "elasticache",
+   "amazon elasticache"
+  ],
+  "category": "cloud",
+  "type": "cache",
+  "icon": "cloud/aws/elasticache.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon elasticache"
+  ]
+ },
+ "aws-redshift": {
+  "label": "Amazon Redshift",
+  "aliases": [
+   "redshift",
+   "amazon redshift"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/aws/redshift.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon redshift"
+  ]
+ },
+ "aws-athena": {
+  "label": "Amazon Athena",
+  "aliases": [
+   "amazon athena",
+   "aws athena"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/aws/athena.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon athena"
+  ]
+ },
+ "aws-glue": {
+  "label": "AWS Glue",
+  "aliases": [
+   "aws glue"
+  ],
+  "category": "cloud",
+  "type": "etl",
+  "icon": "cloud/aws/glue.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws glue"
+  ]
+ },
+ "aws-step-functions": {
+  "label": "AWS Step Functions",
+  "aliases": [
+   "step functions",
+   "aws step functions"
+  ],
+  "category": "cloud",
+  "type": "etl",
+  "icon": "cloud/aws/step-functions.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws step functions"
+  ]
+ },
+ "aws-sagemaker": {
+  "label": "Amazon SageMaker",
+  "aliases": [
+   "sagemaker",
+   "amazon sagemaker"
+  ],
+  "category": "cloud",
+  "type": "ai",
+  "icon": "cloud/aws/sagemaker.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon sagemaker"
+  ]
+ },
+ "aws-bedrock": {
+  "label": "Amazon Bedrock",
+  "aliases": [
+   "bedrock",
+   "amazon bedrock",
+   "aws bedrock"
+  ],
+  "category": "cloud",
+  "type": "ai",
+  "icon": "cloud/aws/bedrock.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon bedrock"
+  ]
+ },
+ "aws-waf": {
+  "label": "AWS WAF",
+  "aliases": [
+   "aws waf"
+  ],
+  "category": "cloud",
+  "type": "firewall",
+  "icon": "cloud/aws/waf.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws waf"
+  ]
+ },
+ "aws-vpc": {
+  "label": "Amazon VPC",
+  "aliases": [
+   "aws vpc",
+   "amazon vpc"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/aws/vpc.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon virtual private cloud",
+   "amazon vpc"
+  ]
+ },
+ "aws-opensearch": {
+  "label": "Amazon OpenSearch Service",
+  "aliases": [
+   "amazon opensearch",
+   "aws opensearch"
+  ],
+  "category": "cloud",
+  "type": "search",
+  "icon": "cloud/aws/opensearch.svg",
+  "fallback": "opensearch",
+  "pack": "aws",
+  "pack_names": [
+   "amazon opensearch service"
+  ]
+ },
+ "aws-codepipeline": {
+  "label": "AWS CodePipeline",
+  "aliases": [
+   "codepipeline",
+   "aws codepipeline"
+  ],
+  "category": "cloud",
+  "type": "cicd",
+  "icon": "cloud/aws/codepipeline.svg",
+  "pack": "aws",
+  "pack_names": [
+   "aws codepipeline"
+  ]
+ },
+ "aws-efs": {
+  "label": "Amazon EFS",
+  "aliases": [
+   "efs",
+   "amazon efs",
+   "elastic file system"
+  ],
+  "category": "cloud",
+  "type": "file-storage",
+  "icon": "cloud/aws/efs.svg",
+  "pack": "aws",
+  "pack_names": [
+   "amazon elastic file system",
+   "amazon efs"
+  ]
+ },
+ "azure-functions": {
+  "label": "Azure Functions",
+  "aliases": [
+   "azure functions",
+   "azure function",
+   "function app",
+   "function apps"
+  ],
+  "category": "cloud",
+  "type": "function",
+  "icon": "cloud/azure/functions.svg",
+  "pack": "azure",
+  "pack_names": [
+   "function apps",
+   "function app"
+  ]
+ },
+ "azure-app-service": {
+  "label": "Azure App Service",
+  "aliases": [
+   "app service",
+   "azure app service",
+   "azure web app",
+   "azure web apps"
+  ],
+  "category": "cloud",
+  "type": "web-app",
+  "icon": "cloud/azure/app-service.svg",
+  "pack": "azure",
+  "pack_names": [
+   "app services",
+   "app service"
+  ]
+ },
+ "azure-aks": {
+  "label": "Azure Kubernetes Service",
+  "aliases": [
+   "aks",
+   "azure aks",
+   "azure kubernetes service"
+  ],
+  "category": "cloud",
+  "type": "cluster",
+  "icon": "cloud/azure/aks.svg",
+  "fallback": "kubernetes",
+  "pack": "azure",
+  "pack_names": [
+   "kubernetes services",
+   "azure kubernetes service"
+  ]
+ },
+ "azure-container-apps": {
+  "label": "Azure Container Apps",
+  "aliases": [
+   "azure container apps",
+   "container apps"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/azure/container-apps.svg",
+  "pack": "azure",
+  "pack_names": [
+   "container apps environments",
+   "container apps",
+   "worker container app"
+  ]
+ },
+ "azure-container-registry": {
+  "label": "Azure Container Registry",
+  "aliases": [
+   "acr",
+   "azure container registry"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/azure/container-registry.svg",
+  "pack": "azure",
+  "pack_names": [
+   "container registries"
+  ]
+ },
+ "azure-vm": {
+  "label": "Azure Virtual Machines",
+  "aliases": [
+   "azure vm",
+   "azure vms",
+   "azure virtual machine",
+   "azure virtual machines"
+  ],
+  "category": "cloud",
+  "type": "server",
+  "icon": "cloud/azure/vm.svg",
+  "pack": "azure",
+  "pack_names": [
+   "virtual machine",
+   "virtual machines"
+  ]
+ },
+ "azure-sql": {
+  "label": "Azure SQL Database",
+  "aliases": [
+   "azure sql",
+   "azure sql database",
+   "azure sql db"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/azure/sql.svg",
+  "fallback": "sqlserver",
+  "pack": "azure",
+  "pack_names": [
+   "sql database",
+   "azure sql"
+  ]
+ },
+ "azure-postgresql": {
+  "label": "Azure Database for PostgreSQL",
+  "aliases": [
+   "azure database for postgresql",
+   "azure postgres",
+   "azure postgresql",
+   "azure postgresql flexible server"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/azure/postgresql.svg",
+  "fallback": "postgresql",
+  "pack": "azure",
+  "pack_names": [
+   "azure database postgresql server",
+   "azure database for postgresql servers"
+  ]
+ },
+ "azure-mysql": {
+  "label": "Azure Database for MySQL",
+  "aliases": [
+   "azure database for mysql",
+   "azure mysql"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/azure/mysql.svg",
+  "fallback": "mysql",
+  "pack": "azure",
+  "pack_names": [
+   "azure database mysql server"
+  ]
+ },
+ "azure-cosmos-db": {
+  "label": "Azure Cosmos DB",
+  "aliases": [
+   "cosmos db",
+   "cosmosdb",
+   "azure cosmos db"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/azure/cosmos-db.svg",
+  "pack": "azure",
+  "pack_names": [
+   "azure cosmos db"
+  ]
+ },
+ "azure-cache-redis": {
+  "label": "Azure Cache for Redis",
+  "aliases": [
+   "azure cache for redis",
+   "azure redis",
+   "azure redis cache"
+  ],
+  "category": "cloud",
+  "type": "cache",
+  "icon": "cloud/azure/cache-redis.svg",
+  "fallback": "redis",
+  "pack": "azure",
+  "pack_names": [
+   "cache redis",
+   "azure cache for redis"
+  ]
+ },
+ "azure-storage-account": {
+  "label": "Azure Storage Account",
+  "aliases": [
+   "storage account",
+   "azure storage",
+   "azure storage account"
+  ],
+  "category": "cloud",
+  "type": "object-storage",
+  "icon": "cloud/azure/storage-account.svg",
+  "pack": "azure",
+  "pack_names": [
+   "storage accounts"
+  ]
+ },
+ "azure-blob-storage": {
+  "label": "Azure Blob Storage",
+  "aliases": [
+   "azure blob",
+   "azure blob storage",
+   "azure blobs"
+  ],
+  "category": "cloud",
+  "type": "object-storage",
+  "icon": "cloud/azure/blob-storage.svg",
+  "pack": "azure",
+  "pack_names": [
+   "blob storage",
+   "storage blob"
+  ],
+  "source_url": "https://api.iconify.design/thesvg-color/azure-blob.svg",
+  "license": "MIT (theSVG Color, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "azure-files": {
+  "label": "Azure Files",
+  "aliases": [
+   "azure files",
+   "azure file share"
+  ],
+  "category": "cloud",
+  "type": "file-storage",
+  "icon": "cloud/azure/files.svg",
+  "pack": "azure",
+  "pack_names": [
+   "azure file",
+   "file shares"
+  ]
+ },
+ "azure-data-lake": {
+  "label": "Azure Data Lake Storage",
+  "aliases": [
+   "adls",
+   "adls gen2",
+   "azure data lake",
+   "azure data lake storage"
+  ],
+  "category": "cloud",
+  "type": "object-storage",
+  "icon": "cloud/azure/data-lake.svg",
+  "pack": "azure",
+  "pack_names": [
+   "data lake storage gen1",
+   "azure data lake storage"
+  ]
+ },
+ "azure-service-bus": {
+  "label": "Azure Service Bus",
+  "aliases": [
+   "service bus",
+   "azure service bus"
+  ],
+  "category": "cloud",
+  "type": "queue",
+  "icon": "cloud/azure/service-bus.svg",
+  "pack": "azure",
+  "pack_names": [
+   "azure service bus",
+   "service bus"
+  ]
+ },
+ "azure-event-hubs": {
+  "label": "Azure Event Hubs",
+  "aliases": [
+   "event hubs",
+   "event hub",
+   "azure event hubs",
+   "azure event hub"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/azure/event-hubs.svg",
+  "pack": "azure",
+  "pack_names": [
+   "event hubs"
+  ]
+ },
+ "azure-event-grid": {
+  "label": "Azure Event Grid",
+  "aliases": [
+   "event grid",
+   "azure event grid"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/azure/event-grid.svg",
+  "pack": "azure",
+  "pack_names": [
+   "event grid topics",
+   "event grid domains",
+   "event grid subscriptions"
+  ]
+ },
+ "azure-api-management": {
+  "label": "Azure API Management",
+  "aliases": [
+   "apim",
+   "api management",
+   "azure api management"
+  ],
+  "category": "cloud",
+  "type": "gateway",
+  "icon": "cloud/azure/api-management.svg",
+  "pack": "azure",
+  "pack_names": [
+   "api management services"
+  ]
+ },
+ "azure-front-door": {
+  "label": "Azure Front Door",
+  "aliases": [
+   "front door",
+   "azure front door",
+   "afd"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/azure/front-door.svg",
+  "pack": "azure",
+  "pack_names": [
+   "front door and cdn profiles",
+   "front doors"
+  ]
+ },
+ "azure-application-gateway": {
+  "label": "Azure Application Gateway",
+  "aliases": [
+   "application gateway",
+   "azure application gateway",
+   "app gateway"
+  ],
+  "category": "cloud",
+  "type": "load-balancer",
+  "icon": "cloud/azure/application-gateway.svg",
+  "pack": "azure",
+  "pack_names": [
+   "application gateways"
+  ]
+ },
+ "azure-load-balancer": {
+  "label": "Azure Load Balancer",
+  "aliases": [
+   "azure load balancer",
+   "azure lb"
+  ],
+  "category": "cloud",
+  "type": "load-balancer",
+  "icon": "cloud/azure/load-balancer.svg",
+  "pack": "azure",
+  "pack_names": [
+   "load balancers"
+  ]
+ },
+ "azure-vnet": {
+  "label": "Azure Virtual Network",
+  "aliases": [
+   "vnet",
+   "azure vnet",
+   "azure virtual network"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/azure/vnet.svg",
+  "pack": "azure",
+  "pack_names": [
+   "virtual networks"
+  ]
+ },
+ "azure-firewall": {
+  "label": "Azure Firewall",
+  "aliases": [
+   "azure firewall"
+  ],
+  "category": "cloud",
+  "type": "firewall",
+  "icon": "cloud/azure/firewall.svg",
+  "pack": "azure",
+  "pack_names": [
+   "firewalls"
+  ]
+ },
+ "azure-key-vault": {
+  "label": "Azure Key Vault",
+  "aliases": [
+   "key vault",
+   "azure key vault",
+   "akv"
+  ],
+  "category": "cloud",
+  "type": "secrets",
+  "icon": "cloud/azure/key-vault.svg",
+  "pack": "azure",
+  "pack_names": [
+   "key vaults"
+  ]
+ },
+ "azure-entra-id": {
+  "label": "Microsoft Entra ID",
+  "aliases": [
+   "entra id",
+   "microsoft entra id",
+   "entra",
+   "azure ad",
+   "azure active directory",
+   "aad"
+  ],
+  "category": "cloud",
+  "type": "identity",
+  "icon": "cloud/azure/entra-id.svg",
+  "pack": "azure",
+  "pack_names": [
+   "entra id",
+   "azure active directory",
+   "microsoft entra id"
+  ]
+ },
+ "azure-monitor": {
+  "label": "Azure Monitor",
+  "aliases": [
+   "azure monitor"
+  ],
+  "category": "cloud",
+  "type": "monitoring",
+  "icon": "cloud/azure/monitor.svg",
+  "pack": "azure",
+  "pack_names": [
+   "monitor"
+  ]
+ },
+ "azure-app-insights": {
+  "label": "Application Insights",
+  "aliases": [
+   "application insights",
+   "app insights",
+   "appinsights",
+   "azure application insights"
+  ],
+  "category": "cloud",
+  "type": "monitoring",
+  "icon": "cloud/azure/app-insights.svg",
+  "pack": "azure",
+  "pack_names": [
+   "application insights"
+  ]
+ },
+ "azure-log-analytics": {
+  "label": "Log Analytics",
+  "aliases": [
+   "log analytics",
+   "log analytics workspace"
+  ],
+  "category": "cloud",
+  "type": "logging",
+  "icon": "cloud/azure/log-analytics.svg",
+  "pack": "azure",
+  "pack_names": [
+   "log analytics workspaces"
+  ]
+ },
+ "azure-openai": {
+  "label": "Azure OpenAI",
+  "aliases": [
+   "azure openai",
+   "azure openai service",
+   "aoai"
+  ],
+  "category": "cloud",
+  "type": "ai",
+  "icon": "cloud/azure/openai.svg",
+  "fallback": "openai",
+  "pack": "azure",
+  "pack_names": [
+   "azure openai"
+  ]
+ },
+ "azure-ai-search": {
+  "label": "Azure AI Search",
+  "aliases": [
+   "azure ai search",
+   "azure cognitive search",
+   "azure search"
+  ],
+  "category": "cloud",
+  "type": "search",
+  "icon": "cloud/azure/ai-search.svg",
+  "pack": "azure",
+  "pack_names": [
+   "cognitive search",
+   "search services"
+  ]
+ },
+ "azure-ml": {
+  "label": "Azure Machine Learning",
+  "aliases": [
+   "azure ml",
+   "azure machine learning"
+  ],
+  "category": "cloud",
+  "type": "ai",
+  "icon": "cloud/azure/ml.svg",
+  "pack": "azure",
+  "pack_names": [
+   "machine learning"
+  ]
+ },
+ "azure-data-factory": {
+  "label": "Azure Data Factory",
+  "aliases": [
+   "adf",
+   "data factory",
+   "azure data factory"
+  ],
+  "category": "cloud",
+  "type": "etl",
+  "icon": "cloud/azure/data-factory.svg",
+  "pack": "azure",
+  "pack_names": [
+   "data factories"
+  ]
+ },
+ "azure-databricks": {
+  "label": "Azure Databricks",
+  "aliases": [
+   "azure databricks"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/azure/databricks.svg",
+  "fallback": "databricks",
+  "pack": "azure",
+  "pack_names": [
+   "azure databricks"
+  ]
+ },
+ "azure-synapse": {
+  "label": "Azure Synapse Analytics",
+  "aliases": [
+   "synapse",
+   "azure synapse",
+   "azure synapse analytics"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/azure/synapse.svg",
+  "pack": "azure",
+  "pack_names": [
+   "azure synapse analytics"
+  ]
+ },
+ "azure-logic-apps": {
+  "label": "Azure Logic Apps",
+  "aliases": [
+   "logic apps",
+   "logic app",
+   "azure logic apps"
+  ],
+  "category": "cloud",
+  "type": "etl",
+  "icon": "cloud/azure/logic-apps.svg",
+  "pack": "azure",
+  "pack_names": [
+   "logic apps"
+  ]
+ },
+ "azure-static-web-apps": {
+  "label": "Azure Static Web Apps",
+  "aliases": [
+   "static web apps",
+   "static web app",
+   "azure static web apps"
+  ],
+  "category": "cloud",
+  "type": "web-app",
+  "icon": "cloud/azure/static-web-apps.svg",
+  "pack": "azure",
+  "pack_names": [
+   "static apps"
+  ]
+ },
+ "gcp-cloud-run": {
+  "label": "Cloud Run",
+  "aliases": [
+   "cloud run",
+   "google cloud run"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/gcp/cloud-run.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud run"
+  ]
+ },
+ "gcp-gke": {
+  "label": "Google Kubernetes Engine",
+  "aliases": [
+   "gke",
+   "google kubernetes engine"
+  ],
+  "category": "cloud",
+  "type": "cluster",
+  "icon": "cloud/gcp/gke.svg",
+  "fallback": "kubernetes",
+  "pack": "gcp",
+  "pack_names": [
+   "google kubernetes engine"
+  ]
+ },
+ "gcp-compute-engine": {
+  "label": "Compute Engine",
+  "aliases": [
+   "compute engine",
+   "gce",
+   "google compute engine"
+  ],
+  "category": "cloud",
+  "type": "server",
+  "icon": "cloud/gcp/compute-engine.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "compute engine"
+  ]
+ },
+ "gcp-cloud-functions": {
+  "label": "Cloud Functions",
+  "aliases": [
+   "google cloud functions",
+   "gcp cloud functions",
+   "gcf"
+  ],
+  "category": "cloud",
+  "type": "function",
+  "icon": "cloud/gcp/cloud-functions.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud functions"
+  ]
+ },
+ "gcp-app-engine": {
+  "label": "App Engine",
+  "aliases": [
+   "app engine",
+   "gae",
+   "google app engine"
+  ],
+  "category": "cloud",
+  "type": "web-app",
+  "icon": "cloud/gcp/app-engine.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "app engine"
+  ]
+ },
+ "gcp-cloud-storage": {
+  "label": "Cloud Storage",
+  "aliases": [
+   "gcs",
+   "google cloud storage",
+   "gcp cloud storage"
+  ],
+  "category": "cloud",
+  "type": "object-storage",
+  "icon": "cloud/gcp/cloud-storage.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud storage"
+  ]
+ },
+ "gcp-bigquery": {
+  "label": "BigQuery",
+  "aliases": [
+   "bigquery",
+   "big query",
+   "google bigquery"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/gcp/bigquery.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "bigquery"
+  ]
+ },
+ "gcp-cloud-sql": {
+  "label": "Cloud SQL",
+  "aliases": [
+   "cloud sql",
+   "google cloud sql",
+   "gcp cloud sql"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/gcp/cloud-sql.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud sql"
+  ]
+ },
+ "gcp-spanner": {
+  "label": "Cloud Spanner",
+  "aliases": [
+   "spanner",
+   "cloud spanner"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/gcp/spanner.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud spanner",
+   "spanner"
+  ]
+ },
+ "gcp-firestore": {
+  "label": "Firestore",
+  "aliases": [
+   "firestore",
+   "cloud firestore"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/gcp/firestore.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "firestore"
+  ]
+ },
+ "gcp-bigtable": {
+  "label": "Bigtable",
+  "aliases": [
+   "bigtable",
+   "cloud bigtable"
+  ],
+  "category": "cloud",
+  "type": "database",
+  "icon": "cloud/gcp/bigtable.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "bigtable",
+   "cloud bigtable"
+  ]
+ },
+ "gcp-memorystore": {
+  "label": "Memorystore",
+  "aliases": [
+   "memorystore",
+   "google memorystore"
+  ],
+  "category": "cloud",
+  "type": "cache",
+  "icon": "cloud/gcp/memorystore.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "memorystore"
+  ]
+ },
+ "gcp-pubsub": {
+  "label": "Pub/Sub",
+  "aliases": [
+   "cloud pub/sub",
+   "google pub/sub",
+   "gcp pub/sub",
+   "google cloud pub/sub"
+  ],
+  "category": "cloud",
+  "type": "stream",
+  "icon": "cloud/gcp/pubsub.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "pubsub",
+   "cloud pubsub"
+  ]
+ },
+ "gcp-dataflow": {
+  "label": "Dataflow",
+  "aliases": [
+   "google dataflow",
+   "gcp dataflow",
+   "cloud dataflow"
+  ],
+  "category": "cloud",
+  "type": "etl",
+  "icon": "cloud/gcp/dataflow.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "dataflow"
+  ]
+ },
+ "gcp-vertex-ai": {
+  "label": "Vertex AI",
+  "aliases": [
+   "vertex ai",
+   "google vertex ai"
+  ],
+  "category": "cloud",
+  "type": "ai",
+  "icon": "cloud/gcp/vertex-ai.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "vertex ai",
+   "vertexai"
+  ]
+ },
+ "gcp-load-balancing": {
+  "label": "Cloud Load Balancing",
+  "aliases": [
+   "google cloud load balancing",
+   "gcp load balancer",
+   "gclb"
+  ],
+  "category": "cloud",
+  "type": "load-balancer",
+  "icon": "cloud/gcp/load-balancing.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud load balancing"
+  ]
+ },
+ "gcp-cloud-cdn": {
+  "label": "Cloud CDN",
+  "aliases": [
+   "google cloud cdn",
+   "gcp cloud cdn"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/gcp/cloud-cdn.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud cdn"
+  ]
+ },
+ "gcp-apigee": {
+  "label": "Apigee",
+  "aliases": [
+   "apigee",
+   "apigee api platform"
+  ],
+  "category": "cloud",
+  "type": "gateway",
+  "icon": "cloud/gcp/apigee.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "apigee api platform",
+   "apigee"
+  ]
+ },
+ "gcp-iam": {
+  "label": "Cloud IAM",
+  "aliases": [
+   "gcp iam",
+   "google cloud iam"
+  ],
+  "category": "cloud",
+  "type": "identity",
+  "icon": "cloud/gcp/iam.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "identity and access management"
+  ]
+ },
+ "gcp-secret-manager": {
+  "label": "Secret Manager",
+  "aliases": [
+   "secret manager",
+   "gcp secret manager",
+   "google secret manager"
+  ],
+  "category": "cloud",
+  "type": "secrets",
+  "icon": "cloud/gcp/secret-manager.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "secret manager"
+  ]
+ },
+ "gcp-cloud-monitoring": {
+  "label": "Cloud Monitoring",
+  "aliases": [
+   "google cloud monitoring",
+   "gcp cloud monitoring",
+   "stackdriver"
+  ],
+  "category": "cloud",
+  "type": "monitoring",
+  "icon": "cloud/gcp/cloud-monitoring.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud monitoring"
+  ]
+ },
+ "gcp-cloud-logging": {
+  "label": "Cloud Logging",
+  "aliases": [
+   "google cloud logging",
+   "gcp cloud logging"
+  ],
+  "category": "cloud",
+  "type": "logging",
+  "icon": "cloud/gcp/cloud-logging.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud logging"
+  ]
+ },
+ "gcp-artifact-registry": {
+  "label": "Artifact Registry",
+  "aliases": [
+   "google artifact registry",
+   "gcp artifact registry"
+  ],
+  "category": "cloud",
+  "type": "container",
+  "icon": "cloud/gcp/artifact-registry.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "artifact registry"
+  ]
+ },
+ "gcp-cloud-build": {
+  "label": "Cloud Build",
+  "aliases": [
+   "google cloud build",
+   "gcp cloud build"
+  ],
+  "category": "cloud",
+  "type": "cicd",
+  "icon": "cloud/gcp/cloud-build.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "cloud build"
+  ]
+ },
+ "gcp-vpc": {
+  "label": "VPC (Google Cloud)",
+  "aliases": [
+   "gcp vpc",
+   "google vpc"
+  ],
+  "category": "cloud",
+  "type": "network",
+  "icon": "cloud/gcp/vpc.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "virtual private cloud"
+  ]
+ },
+ "gcp-dataproc": {
+  "label": "Dataproc",
+  "aliases": [
+   "dataproc",
+   "cloud dataproc"
+  ],
+  "category": "cloud",
+  "type": "analytics",
+  "icon": "cloud/gcp/dataproc.svg",
+  "pack": "gcp",
+  "pack_names": [
+   "dataproc"
+  ]
+ },
+ "sqlalchemy": {
+  "label": "SQLAlchemy",
+  "aliases": [],
+  "category": "found",
+  "type": "service",
+  "icon": "found/sqlalchemy.svg",
+  "source_url": "https://api.iconify.design/devicon/sqlalchemy.svg",
+  "license": "MIT (Devicon, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "scipy": {
+  "label": "SciPy",
+  "aliases": [],
+  "category": "found",
+  "type": "service",
+  "icon": "found/scipy.svg",
+  "source_url": "https://api.iconify.design/thesvg-color/scipy.svg",
+  "license": "MIT (theSVG Color, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "timescaledb": {
+  "label": "TimescaleDB",
+  "aliases": [],
+  "category": "found",
+  "type": "service",
+  "icon": "found/timescaledb.svg",
+  "source_url": "https://api.iconify.design/thesvg-color/timescale.svg",
+  "license": "MIT (theSVG Color, via Iconify). The logo is a trademark of its owner.",
+  "retrieved": "2026-11-01"
+ },
+ "name-opc-ua": {
+  "label": "OPC UA",
+  "aliases": [],
+  "category": "names",
+  "type": "service",
+  "icon": "names/opc-ua.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01"
+ },
+ "name-dcs": {
+  "label": "DCS",
+  "aliases": [],
+  "category": "names",
+  "type": "service",
+  "icon": "names/dcs.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01"
+ },
+ "name-activemq": {
+  "label": "Apache ActiveMQ",
+  "aliases": [],
+  "category": "names",
+  "type": "queue",
+  "icon": "names/activemq.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01",
+  "badge_for": "activemq"
+ },
+ "name-azure-api-management": {
+  "label": "Azure API Management",
+  "aliases": [],
+  "category": "names",
+  "type": "gateway",
+  "icon": "names/azure-api-management.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01",
+  "badge_for": "azure-api-management"
+ },
+ "name-azure-event-hubs": {
+  "label": "Azure Event Hubs",
+  "aliases": [],
+  "category": "names",
+  "type": "stream",
+  "icon": "names/azure-event-hubs.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01",
+  "badge_for": "azure-event-hubs"
+ },
+ "name-azure-front-door": {
+  "label": "Azure Front Door",
+  "aliases": [],
+  "category": "names",
+  "type": "network",
+  "icon": "names/azure-front-door.svg",
+  "generated": "name-badge",
+  "source_url": "generated by this skill",
+  "license": "Generated text tile, free to use",
+  "retrieved": "2026-11-01",
+  "badge_for": "azure-front-door"
+ }
+}

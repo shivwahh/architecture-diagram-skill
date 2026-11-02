@@ -1,0 +1,8 @@
+{"ops": [
+  {"op": "add_component", "id": "notifier", "label": "Notification service", "tech": "Node.js", "type": "service", "boundary": "aks", "near": "worker", "status": "new"},
+  {"op": "add_flow", "from": "events", "to": "notifier", "label": "consume", "style": "async"},
+  {"op": "add_component", "id": "sms", "label": "Twilio", "tech": "Twilio", "type": "external-system", "near": "stripe", "side": "below", "status": "new"},
+  {"op": "add_flow", "from": "notifier", "to": "sms", "label": "SMS (REST)"},
+  {"op": "set_status", "id": "payment", "status": "changed"},
+  {"op": "relabel", "id": "catalog", "label": "Product catalog service"}
+]}
